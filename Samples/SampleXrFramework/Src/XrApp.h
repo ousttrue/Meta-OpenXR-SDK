@@ -670,7 +670,6 @@ class XrApp {
 #elif defined(WIN32)
 
 #define ENTRY_POINT(appClass)                               \
-    __pragma(comment(linker, "/SUBSYSTEM:WINDOWS"));        \
     int APIENTRY WinMain(HINSTANCE, HINSTANCE, PSTR, int) { \
         auto appl = std::make_unique<appClass>();           \
         appl->Run();                                        \
