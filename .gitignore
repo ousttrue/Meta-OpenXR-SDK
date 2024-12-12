@@ -1,4 +1,5 @@
-.zig-out
-.zig-cache
+zig-out
 zig-cache
+.zig-cache
 Makefile
+compile_commands.json
